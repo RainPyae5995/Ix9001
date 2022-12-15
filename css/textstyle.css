@@ -1,0 +1,62 @@
+.textalignb{
+	/*text-align:left;*/
+	/*text-align:right;*/
+	/*text-align: center;*/
+	text-align: justify;
+}
+
+.textaligni{
+	text-align: center;
+
+}
+
+h1{
+	text-decoration: underline;
+	/*text-decoration: none;*/
+}
+h2{
+	text-decoration: line-through;
+}
+h3{
+	text-decoration: overline;
+}
+#textline{
+	/*line-height: 50px;*/
+	/*line-height: 100%;*/
+	line-height: 3;
+	font-size: 30px;
+
+}
+#textspace{
+	letter-spacing: 16px;
+	background-color:gold;
+	text-decoration: underline;
+
+}
+
+i{
+	font-size: 30px;
+	/*color: red;*/
+	/*color: #777;*/
+	color: #db1a37;
+}
+
+pre{
+	/*color: rgba(256,256,256,0.5);*/
+	color: rgba(42,224,88,1.00);
+	background-color: #1f0633;
+}
+ 
+marquee{ 
+	           /*h  v  b  chorizontal  vertical  blur  color*/
+	/*text-shadow: 5px 5px 3px rgba(0,0,0,0.3);*/
+	/*text-shadow: -5px -5px 3px rgba(0,0,0,0.3);*/
+	text-shadow: -5px 7px 0px rgba(0,0,0,0.3);
+	font-size: 50px;
+	/*color: rgba(37,0,43,1.00);*/
+}
+
+a{
+	font-size:30px;
+	background-color:  rgba(39,255,120,1.00);
+}

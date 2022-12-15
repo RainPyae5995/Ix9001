@@ -1,0 +1,43 @@
+p{
+	       /*s  s  c (stroke, style, color)*/
+	border: 1px solid red;
+} 
+
+strong{
+	border: 3px dashed #9856a6;
+}
+
+small{
+	border: 3px dotted #4ea39e;
+}
+
+i{
+	border: 5px double #3085c7;
+}
+
+.first{
+	width: 50px;
+	height: 50px;
+	border: 3px solid red;
+	background-color: red;
+}
+
+.second{
+	width: 50px;
+	height: 50px;
+	border: 3px solid red;
+	background-color: red;
+	border-radius: 50%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.third{
+	width: 50px;
+	height: 50px;
+	border: 3px solid red;
+	background-color: red;
+	border-radius: 50%;
+}

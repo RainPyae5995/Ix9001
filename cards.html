@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cards</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		/**
+		{
+			margin: 0;
+			padding: 0;
+		}*/
+
+		body{
+            height: 100vh; 
+			background-color: #333;
+
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		div{
+			width: 300px;
+			height: 400px;
+			background-color: #68b07c;
+		}
+		h2{
+			text-align: center;
+		}
+		
+		ul{
+			list-style-type: circle;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			align-items: start;
+
+		}
+
+		@media (max-width: 600px){
+			body{
+				/*display: block;*/
+				flex-direction: column;
+			}
+			div{
+				width: 400px;
+				height: 500px;
+				margin-bottom: 20px;
+			}
+
+			img{
+				width: 400px;
+			}
+
+			h2{
+				font-size: 2rem;
+			}
+
+			ul li{
+				font-size: 1.5rem;
+			}
+		}
+
+		@media (min-width: 601px) and (max-width: 1100px){
+
+		}
+
+		@media (min-width: 1100px) and (max-width: 1500px){
+			
+		}
+
+
+
+	</style>
+</head>
+
+<body>
+
+	<div>
+		<img src="img/dog1.jpg" alt="Cards" />
+		<h2>Dog1</h2>
+		<ul>
+			<li>Name</li>
+			<li>Gender</li>
+			<li>Age</li>
+			<li>Position</li>
+		</ul>
+	</div>
+
+	<div>
+		<img src="img/dog2.jpg" alt="Cards" />
+		<h2>Dog2</h2>
+		<ul>
+			<li>Name</li>
+			<li>Gender</li>
+			<li>Age</li>
+			<li>Position</li>
+
+		</ul>
+
+	</div>
+
+	<div>
+		<img src="img/dog3.jpg" alt="Cards" />
+		<h2>Dog3</h2>
+		<ul>
+			<li>Name</li>
+			<li>Gender</li>
+			<li>Age</li>
+			<li>Position</li>
+		</ul>
+
+	</div>
+	
+  </body>
+
+</html>
+<!-- in use units height in body - vh=viewport height -->
+<!-- margin & padding -->
